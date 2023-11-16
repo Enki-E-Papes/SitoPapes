@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/BTS_5.1/icons8-undertale-color/icons8-undertale-48.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Undertale.R</title>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/sf-pixelate');
+
+        nav {
+            font-family: 'SF Pixelate', sans-serif;
+        }
+
+        body {
+            color: aliceblue;
+        }
+
+        ;
+
+        .pixel {
+            font-family: 'SF Pixelate', sans-serif;
+        }
+
+        /*----------------------*/
+        #header {
+            height: 100vh;
+            /* Imposta l'altezza dell'header come la dimensione dell'intero schermo */
+        }
+
+        #header img {
+            object-fit: cover;
+            /* Riempi l'immagine per adattarla all'altezza e alla larghezza dell'header */
+        }
+
+        #ridimensionamento {
+            width: 60%
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+    <!--1.Nav bar con aiuto di bootstrap-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/BTS_5.1/html.html"><img
+                    src="/BTS_5.1/icons8-undertale-color/icons8-undertale-48.png" alt="">Undertale</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/BTS_5.1/html.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/BTS_5.1/AutoreGioco.html">AutoreGioco</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/BTS_5.1/personaggi.html">Personaggi</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/BTS_5.1/YouTRubeListMiusic.html">Tabella Musuche</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            IL videegioco
+                        </a>
+                        <ul class="dropdown-menu btn btn-outline-info">
+                            <li><a class="dropdown-item" href="/BTS_5.1/Trama.html">Trama</a></li>
+                            <li><a class="dropdown-item" href="#">Modalità di gioco</a></li>
+                            <li><a class="dropdown-item" href="#">influenze</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header><img src="https://www.gameslocalizationschool.com/wp-content/uploads/2023/06/undertale-247984.jpg"
+            class="img-fluid mb-4"></header>
+
+    <div class="container">
+        <div class="row">
+            <!-- Div that will be placed at the left of the screen -->
+            <div class="col-md-6 col-xs-12 mb-">
+                <h1>Trama</h1>
+                <span>
+
+                    Undertale è un gioco di ruolo con veduta aerea nel quale il giocatore
+                    veste i panni di un bambino, con cui deve esplorare un mondo sotterraneo
+                    in cerca di una via d'uscita dallo stesso percorrendo le mappe variopinte e
+                    tutte diverse tra loro in cui è suddiviso il mondo di gioco, composto da città,
+                    lunghi tunnel sotterranei ed edifici. Ad abitare il sottosuolo, sparsi per le
+                    mappe, vi sono mostri dalle forme varie e alquanto particolari: incontrandoli, il
+                    protagonista può decidere se combatterli o meno.
+                    Durante le battaglie il giocatore muove un cuore rosso, rappresentazione della sua
+                    anima, all'interno di un'arena di forma quadrata o rettangolare nella parte centrale
+                    dello schermo e dovrà sfuggire agli attacchi-proiettili degli avversari che cadranno
+                    nell'arena in un sistema di gioco simile ai danmaku (o, in inglese, bullet hell).
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <!-- Div that will be placed at the left of the screen -->
+            <div class="col-md-6 col-xs-12 mb-4">
+                <br><center><img class="img-fluid" id="ridimensionamento"
+                        src="https://upload.wikimedia.org/wikipedia/it/b/b7/Undertale_Screenshot_Gameplay.png"
+                        class="img-fluid mt-4 mb-4" alt=""></center><br>
+                Con il progredire del gioco i "proiettili" degli avversari diverranno sempre più
+                veloci e difficili da evitare, verranno introdotti nuovi elementi quali ostacoli colorati
+                (a seconda del colore, il giocatore non dovrà muoversi per non subire danno se sono blu,
+                muoversi se sono arancioni o progredire in una lotta se sono verdi), e contro alcuni mostri
+                speciali lo spazio di movimento dell'arena si ridurrà e i movimenti stessi del cuore/anima del
+                protagonista vengono manipolati (ad esempio quando il colore dell'anima del protagonista diviene
+                blu il cuore subisce la gravità, e viene attirato nella parte bassa dell'arena)
+                Durante il suo turno, il giocatore si trova di fronte a diverse scelte
+                strategiche: può decidere di attaccare l’avversario (tramite l'opzione FIGHT)
+                uccidendolo e guadagnando in questo modo "gold" ed EXP, oppure tramite l'opzione
+                ACT scegliere un approccio non violento, che tende a scoraggiare l’avversario al
+                combattimento per potergli poi risparmiare la vita (scegliendo l'opzione SPARE)
+                guadagnando solo gold. Risparmiare o meno i mostri incontrati porta al cambiamento
+                di scene, dialoghi e azioni che si possono svolgere durante la partita, nonché del finale
+                verso il quale si viene indirizzati.
+                </span>
+
+            </div>
+                <div class="col-md-6">
+                    <img   src="https://images.g2a.com/360x600/1x1x1/undertale-steam-key-global-i10000005286007/59e0c327ae653a8e685b7823" alt="">
+                </div>
+        </div>
+    
+    </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</html>
